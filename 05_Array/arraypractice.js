@@ -67,3 +67,45 @@ let a=["HTML", "CSS", "JS"];
 let felement=a[0];
 
 console.log(felement);
+
+//accessing the last element of an array.
+
+let cities = ["Mumbai", "Delhi", "Pune", "Chennai"];
+let char =["A", "B", "C", "D", "E"];
+
+let lst=cities[cities.length-1];
+
+// console.log(lst);
+
+let lastcity=cities[cities.length-1];
+
+// console.log(lastcity);
+
+function LastElement(arr) {
+    
+   return arr[arr.length-1]
+    
+}
+// console.log(LastElement(cities));
+// console.log(LastElement(char));
+
+//modifying array elements
+
+let numbers=[10,20,30,40,50];
+console.log(numbers);
+
+numbers[1]=25;
+
+// console.log("updated array:",numbers);
+
+numbers[numbers.length-1]=100;
+
+console.log("after change 50 to 100 :",numbers);
+
+numbers[2]="Thirty";
+
+console.log("after thirty :",numbers);
+
+numbers[2]=60;
+
+console.log("after the double:",numbers);
