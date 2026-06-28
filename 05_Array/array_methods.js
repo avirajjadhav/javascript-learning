@@ -98,3 +98,20 @@ let len=items.length;
 
 console.log(len);
 
+//removing elements using shift()method.
+
+let colors = ["Red", "Blue", "Green"];
+console.log("original array:",colors);
+colors.shift();
+console.log("updated array:",colors);
+
+let color="Red";
+
+colors.shift();
+colors.shift();
+console.log(colors);
+let len=colors.length;
+
+console.log(len);
+
+
