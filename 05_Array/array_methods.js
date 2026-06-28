@@ -36,3 +36,32 @@ a.push(4,5);
 a.unshift(0);
 console.log(a);
 
+//adding elements to array using push() method
+
+let fruits=["apple","Banana"];
+console.log(fruits)
+let len=fruits.length;
+console.log("original array Length:",len);
+fruits.push("Mango");
+
+console.log(fruits)
+
+fruits.push("Orange","Grapes");
+
+console.log(fruits);
+
+fruits.push(100);
+
+console.log(fruits);
+
+fruits.push("kiwi");
+
+console.log(fruits);
+
+let len2=fruits.length;
+
+console.log("updated array length:",len2);
+
+
+
+
