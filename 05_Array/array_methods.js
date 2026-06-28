@@ -62,6 +62,22 @@ let len2=fruits.length;
 
 console.log("updated array length:",len2);
 
+//adding element using unshift();
+
+let colors=["blue","Green"];
+console.log("original array:",colors);
+
+colors.unshift("red");
+
+console.log("after added red:",colors);
+
+colors.unshift("black","white");
+
+console.log("after added black and white:",colors);
+
+let len=colors.length;
+
+console.log("updated array length:",len);
 
 
 
