@@ -79,5 +79,22 @@ let len=colors.length;
 
 console.log("updated array length:",len);
 
+//removing elements using pop()method.
 
+let items = ["Pen", "Pencil", "Eraser", "Scale"];
+
+console.log("original array:",items);
+
+items.pop("Scale");
+
+console.log("after removing last element :",items);
+
+items.pop();
+items.pop();
+
+console.log("after removing 2 elements:",items);
+
+let len=items.length;
+
+console.log(len);
 
