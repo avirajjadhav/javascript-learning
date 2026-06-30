@@ -58,54 +58,61 @@ function getFirstElement(arr) {
     return arr[0];
 }
 
-console.log(getFirstElement(colors));   // Red
-console.log(getFirstElement(fruits));   // Apple
-console.log(getFirstElement(numbers));  // 10
+// console.log(getFirstElement(colors));   // Red
+// console.log(getFirstElement(fruits));   // Apple
+// console.log(getFirstElement(numbers));  // 10
 
-let a=["HTML", "CSS", "JS"];
+// let a=["HTML", "CSS", "JS"];
 
-let felement=a[0];
+// let felement=a[0];
 
-console.log(felement);
+// console.log(felement);
 
-//accessing the last element of an array.
+// //accessing the last element of an array.
 
-let cities = ["Mumbai", "Delhi", "Pune", "Chennai"];
-let char =["A", "B", "C", "D", "E"];
+// let cities = ["Mumbai", "Delhi", "Pune", "Chennai"];
+// let char =["A", "B", "C", "D", "E"];
 
-let lst=cities[cities.length-1];
+// let lst=cities[cities.length-1];
 
-// console.log(lst);
+// // console.log(lst);
 
-let lastcity=cities[cities.length-1];
+// let lastcity=cities[cities.length-1];
 
-// console.log(lastcity);
+// // console.log(lastcity);
 
-function LastElement(arr) {
+// function LastElement(arr) {
     
-   return arr[arr.length-1]
+//    return arr[arr.length-1]
     
-}
-// console.log(LastElement(cities));
-// console.log(LastElement(char));
+// }
+// // console.log(LastElement(cities));
+// // console.log(LastElement(char));
 
-//modifying array elements
+// //modifying array elements
 
-let numbers=[10,20,30,40,50];
-console.log(numbers);
+// let numbers=[10,20,30,40,50];
+// console.log(numbers);
 
-numbers[1]=25;
+// numbers[1]=25;
 
-// console.log("updated array:",numbers);
+// // console.log("updated array:",numbers);
 
-numbers[numbers.length-1]=100;
+// numbers[numbers.length-1]=100;
 
-console.log("after change 50 to 100 :",numbers);
+// console.log("after change 50 to 100 :",numbers);
 
-numbers[2]="Thirty";
+// numbers[2]="Thirty";
 
-console.log("after thirty :",numbers);
+// console.log("after thirty :",numbers);
 
-numbers[2]=60;
+// numbers[2]=60;
 
-console.log("after the double:",numbers);
+// console.log("after the double:",numbers);
+
+
+let a = ["HTML", "CSS", "JS"];
+
+// Check type of array
+console.log(typeof a);
+
