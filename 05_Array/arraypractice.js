@@ -116,3 +116,31 @@ let a = ["HTML", "CSS", "JS"];
 // Check type of array
 console.log(typeof a);
 
+//array length
+
+let animals = ["Dog", "Cat", "Lion", "Tiger"];
+
+console.log("original array:",animals);
+
+if (animals.length >3) {
+    console.log("array has more than 3 elements")
+}else{
+    console.log("array has less than 3 elements")
+}
+
+let len=animals.length;
+
+console.log("array length:",len);
+
+let lastIndex=animals.length-1;
+console.log("last index of array:",lastIndex);
+
+
+let lastElement=animals[animals.length-1];
+console.log("array last element:",lastElement);
+
+if(animals.length===0){
+    console.log("array is empty")
+}else{
+    console.log("array is not empty");
+}
