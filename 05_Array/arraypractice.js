@@ -150,3 +150,44 @@ let arr=[1,2,3,4];
 arr.Length=7;
 
 console.log("after increasing the array length:",arr);
+
+//use the splice() method.add remove or replace elements of array.
+
+let nums=[10,20,30,40,50];
+
+console.log("original array:",nums);
+
+nums.splice(2,1);
+
+console.log("after removing 30 from 2nd position:",nums);
+
+nums.splice(2,0,"Mango");
+console.log("after adding elements 2nd  position:",nums);
+
+
+nums.splice(3,1,100);
+
+console.log("after replacing 40 with 100",nums);
+
+nums.splice(3,2);
+console.log("after removing last 2 elements:",nums);
+
+let arr1 = [1, 2, 3];
+let arr2 = [4, 5, 6];
+let arr3 =[7,8];
+
+
+
+console.log(arr1);
+console.log(arr2);
+console.log(arr3);
+
+let concatarray=arr1.concat(arr2);
+
+console.log("after combined array",concatarray);
+
+let concat3array=[...arr1, ...arr2, ...arr3];
+
+console.log("after combined 3 array:",concat3array
+);
+
