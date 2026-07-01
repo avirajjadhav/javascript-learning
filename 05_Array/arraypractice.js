@@ -144,3 +144,9 @@ if(animals.length===0){
 }else{
     console.log("array is not empty");
 }
+
+let arr=[1,2,3,4];
+
+arr.Length=7;
+
+console.log("after increasing the array length:",arr);
