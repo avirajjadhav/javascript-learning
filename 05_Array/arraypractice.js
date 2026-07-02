@@ -191,3 +191,14 @@ let concat3array=[...arr1, ...arr2, ...arr3];
 console.log("after combined 3 array:",concat3array
 );
 
+let fruits = ["Apple", "Banana", "Mango"];
+console.log("original array:",fruits);
+
+let str=fruits.toString();
+
+console.log("after string:",str);
+
+console.log("checking array is or not:",Array.isArray(str));
+
+let newarr=fruits.slice(1,2);
+console.log(newarr);
