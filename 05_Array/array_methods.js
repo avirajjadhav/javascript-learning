@@ -130,7 +130,7 @@ console.log(delete emp.salary);
 console.log(emp);
 
 
-map() method
+// map() method
 
 const a=[1,2,3,4];
 const b=a.map(x=>x*2);
@@ -141,7 +141,7 @@ const n=[1,4,9,16];
 const sqr=n.map(num=> Math.sqrt(num));
 console.log(sqr);
 
-square numbers:
+// square numbers:
 
 const numbers =[2,3,4,5];
 
@@ -183,7 +183,7 @@ const users=[
     console.log("after getting names of user",UserNames);
     
     
-    create greeting using map()
+    // create greeting using map()
     
     const users=["aviraj","ritu"];
     
