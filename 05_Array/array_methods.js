@@ -196,5 +196,24 @@ const users=[
     const listItems=fruits.map(fruit=>`<li>${fruit}</li>`);
     
     console.log(listItems);
-    
+    // //filter method in array.
+
+// const ages=[32,33,18,40];
+
+// const result=ages.filter(checkadult);
+
+// function checkadult(age){
+//     return age>=18;
+// }
+// console.log(result);
+
+
+//indexof method 
+
+const fruits=["apple","banana","guawa"];
+
+let index=fruits.indexOf("guawa");
+
+console.log(index);
+
     
