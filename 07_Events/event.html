@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>javascript events</title>
   </head>
   <body>
     <button onclick="myFun()">Click me</button>
@@ -23,9 +23,9 @@
       id="inputfield"
       style="background-color: rgb(187, 212, 235)"
     />
-
-    <h2>The onkeypress Event</h2>
-    <input type="text" onkeypress="myFunction()" />
+    <h2>onkeypress event </h2>
+   <input type="text" onkeypress="myfun2()">
+   
 
     <h2>onchange Event Attribute</h2>
     <p>choose car</p>
@@ -70,9 +70,13 @@ document.getElementById("inputfield").addEventListener("keypress",keydownAction)
 function keydownAction() {
   document.getElementById("inputfield").style.backgroundColor = "orange";
 }
-function myFunction() {
+
+function myfun2() {
   alert("You pressed a key inside the input field");
 }
+
+
+
  function Displaycar(){
     let x=document.getElementById("cars").value;
     document.getElementById('displayvalue').innerHTML=" selected Car : " + x;
