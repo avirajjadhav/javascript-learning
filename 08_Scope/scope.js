@@ -39,7 +39,7 @@ function calculate() {
 
 calculate();
 
-console.log(total);
+// console.log(total);
 
 
 //Block Scope
@@ -48,7 +48,7 @@ if (true) {
   console.log(age);
 }
 
-console.log(age); 
+// console.log(age); 
 
 "use strict";
 
