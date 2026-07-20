@@ -16,6 +16,13 @@
       <div class="day">Wednesday</div>
     </div>
   </body>
+  <h2>The nextElementSibling Property</h2>
+
+<ul>
+  <li id="item1">TV (first item)</li>
+  <li id="item2">MOBILE (second item)</li>
+</ul>
+<p id="demo"></p>
   <script>
    const parent= document.querySelector('.parent')
   //  console.log(parent);
@@ -36,5 +43,7 @@
   console.log(dayone.parentElement);
   console.log(dayone.nextElementSibling);
 
+let text = document.getElementById("item1").nextElementSibling.innerHTML; 
+document.getElementById("demo").innerHTML = text;
   </script>
 </html>
