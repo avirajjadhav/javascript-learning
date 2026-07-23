@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<body lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,8 +22,33 @@
   <li id="item1">TV (first item)</li>
   <li id="item2">MOBILE (second item)</li>
 </ul>
+
 <p id="demo"></p>
-  <script>
+
+<h2>ParentNode Property</h2>
+<ol>
+  <li id="mylist">one</li>
+  <li>two</li>
+  <li>three</li>
+</ol>
+<p>The node name of the parent node of "mylist" is:</p>
+<p id="pnode"></p>
+
+<h2>The childNodes Property</h2>
+<p>The body element's child nodes are:</p>
+<p id="cnode"></p>
+
+
+ <h2>the append()method</h2>
+
+ <div id="mydiv"> </div>
+
+ <h2>The createElement() Method</h2>
+
+<p>Create a p element with  text:</p>
+ 
+</body>
+ <script>
    const parent= document.querySelector('.parent')
   //  console.log(parent);
   //  console.log(parent.children);
@@ -45,5 +70,31 @@
 
 let text = document.getElementById("item1").nextElementSibling.innerHTML; 
 document.getElementById("demo").innerHTML = text;
-  </script>
+
+//parent node
+let name = document.getElementById("mylist").parentNode.nodeName;
+document.getElementById("pnode").innerHTML=name;
+
+//childnode
+// const nodelist=document.body.childNodes;
+// let Text ="";
+// for(let i=0;i<nodelist.length;i++){
+  
+//   Text+=nodelist[i].nodeName+"<br>";
+// }
+// document.getElementById("cnode").innerHTML=Text;
+ 
+ //createelement()
+
+ const div=document.getElementById("mydiv");
+ div.append("hello! I am appended Text.");
+ 
+ const para=document.createElement("p");
+ para.innerHTML="this is a paragraph.";
+
+ document.body.appendChild(para);
+ 
+ 
+ 
+ </script>
 </html>
