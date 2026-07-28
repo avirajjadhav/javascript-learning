@@ -15,9 +15,30 @@ form.addEventListener("submit",function(event){
     const bmi = (weight / ((height * height) / 10000)).toFixed(2);
     
   //bmi category conditons 
-    if (condition) {
-        
-    }
+    if (bmi < 18.5) {
+    result.innerHTML = `
+        <h3>Your BMI is ${bmi}</h3>
+        <p>Category: Underweight 😔</p>
+    `;
+}
+else if (bmi >= 18.5 && bmi <= 24.9) {
+    result.innerHTML = `
+        <h3>Your BMI is ${bmi}</h3>
+        <p>Category: Normal Weight ✅</p>
+    `;
+}
+else if (bmi >= 25 && bmi <= 29.9) {
+    result.innerHTML = `
+        <h3>Your BMI is ${bmi}</h3>
+        <p>Category: Overweight ⚠️</p>
+    `;
+}
+else {
+    result.innerHTML = `
+        <h3>Your BMI is ${bmi}</h3>
+        <p>Category: Obese 🚨</p>
+    `;
+}
  }
 
 
