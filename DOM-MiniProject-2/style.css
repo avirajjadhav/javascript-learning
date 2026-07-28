@@ -5,12 +5,13 @@
 }
 .container{
     max-width: 600px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 80px auto;
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 h1{
     text-align:center;
@@ -34,7 +35,26 @@ p{
 
 .btn-group{
     display: flex;
+    justify-content: center;
     margin: 30px auto;
     gap: 2rem;
    
+}
+label{
+    width: 130px;
+    display: inline-block;
+}
+button {
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 10rem;
+    height: 2.5rem;
+     background-color: #2563EB;
+}
+@media (max-width:600px) {
+    .container{
+        width: 90%;
+    }
+    
 }
